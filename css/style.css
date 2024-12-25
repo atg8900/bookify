@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(192, 190, 190);
+}
+.navbar{
+    border-top: 1px solid rgb(106, 51, 131);
+    border-bottom: 1px solid rgb(106, 51, 131);
+    background-color: rgb(98, 64, 133);
+}
+.collapse li a{
+margin-left: 50px;
+}
+.collapse li a:hover{
+    color: rgb(98, 64, 133);
+
+}.dropdown-menu{
+    width: 250px;
+    padding: 20px;
+}
+.dropdown-menu a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}#home{
+    color:rgb(126, 43, 165);
+
+}.homepart{
+    background-color: gainsboro;
+
+}.homeparttext{
+
+    background-color: gainsboro;
+
+
+}.homepartimg{
+background-color: gainsboro;
+}
+.carouselimage{
+    width: 400px;
+    height: 550px;
+} 
+.featuredpart{
+    background-color: rgb(165, 162, 167);
+
+}
+.iconimages{
+    background-color: rgb(225, 214, 230);
+}
+.images
+{
+width: 100%;
+padding: 40px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.featuredpart img{
+transition: all 0.5s;
+}
+.featuredpart img:hover{
+    box-shadow: 2px 4px 5px rgb(231, 153, 8);
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.itemtext a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: initial;
+    color: rgb(8, 8, 8);
+
+}.itemtext button{
+    background-color: rgb(202, 141, 10);
+}.itemtext button:hover{
+    background-color: rgb(236, 196, 16);
+}
+
+
+.bestwatchedpart{
+    background-color: rgba(184, 180, 185, 0.9);
+}
+
+.allpopulerpart{
+    background-color: rgb(190, 185, 192);
+
+}
+.populerpart{
+    background-color: rgb(190, 185, 192);
+}.populerpart img{
+    transition: all 0.5s;
+}
+.populerpart img:hover{
+    border-radius: 10px;
+}
+.populerpart .itemtext{
+    background-color: rgb(190, 185, 192);
+
+}.daypart{
+    background-color: rgb(190, 185, 192);
+
+}.Subscribepart{
+    background-color: rgb(181, 176, 187);
+}.articlepart{
+background-color: rgb(189, 186, 192);
+}.articlepart img{
+    transition: transform 1s;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgb(128, 91, 197);
+}
+
+.articlepart img:hover{
+    transform: scale(1.1);
+}.downloadpart{
+    background-color: rgb(220, 218, 221);
+}.phone{
+    height: 30rem;
+    transition: all 1s;
+    background-color: rgb(182, 119, 25);
+    border:5px solid rgb(209, 138, 7);
+
+}
+.phone:hover{
+    box-shadow: 5px 6px 7px rgb(228, 146, 24);
+    transform: scale(0.9);
+}
+.finalpart a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}.finalpart a:hover{
+    color: rgb(235, 156, 10);
+    font-size: 23px;
+    font-weight: 400;
+}.finalpart h1{
+    color: rebeccapurple;
+}
+
+
+::selection{
+    color: rgb(99, 24, 109);
+    background-color: rgb(177, 189, 16);
+}
